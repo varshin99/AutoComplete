@@ -52,23 +52,21 @@ To use the auto-complete functionality, follow these steps:
 2. Run the notebook cells to load the model and start the auto-complete service.
 
 ## Project Structure
-
-``
 auto-complete-nlp/
 ├── data/
-│ ├── raw/
-│ ├── processed/
-│ └── cleaned/
+│   ├── raw/
+│   ├── processed/
+│   └── cleaned/
 ├── models/
-│ └── saved_model/
+│   └── saved_model/
 ├── notebooks/
-│ └── Auto_complete_Nlp.ipynb
+│   └── Auto_complete_Nlp.ipynb
 ├── src/
-│ ├── data_preprocessing.py
-│ ├── model_training.py
-│ ├── prediction.py
-│ └── utils.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── prediction.py
+│   └── utils.py
 ├── requirements.txt
 └── README.md
 
-vbnet
+``
