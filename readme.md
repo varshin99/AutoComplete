@@ -6,12 +6,6 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Data](#data)
-- [Models](#models)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -50,23 +44,4 @@ To use the auto-complete functionality, follow these steps:
     jupyter notebook Auto_complete_Nlp.ipynb
     ```
 2. Run the notebook cells to load the model and start the auto-complete service.
-
-## Project Structure
-auto-complete-nlp/
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── cleaned/
-├── models/
-│   └── saved_model/
-├── notebooks/
-│   └── Auto_complete_Nlp.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── prediction.py
-│   └── utils.py
-├── requirements.txt
-└── README.md
-
 ``
