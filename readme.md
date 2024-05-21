@@ -54,3 +54,21 @@ To use the auto-complete functionality, follow these steps:
 ## Project Structure
 
 ``
+auto-complete-nlp/
+├── data/
+│ ├── raw/
+│ ├── processed/
+│ └── cleaned/
+├── models/
+│ └── saved_model/
+├── notebooks/
+│ └── Auto_complete_Nlp.ipynb
+├── src/
+│ ├── data_preprocessing.py
+│ ├── model_training.py
+│ ├── prediction.py
+│ └── utils.py
+├── requirements.txt
+└── README.md
+
+vbnet
